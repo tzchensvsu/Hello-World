@@ -1,0 +1,35 @@
+input {
+	width: 8em;
+	text-align: center;
+}
+
+td.ChinaTotal {
+	color: red;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+td.USATotal {
+	color: blue;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+h1.China {
+	color: red;
+	font-size: 3em;
+}
+
+h1.USA {
+	color: blue;
+	font-size: 3em;
+}
+
+td {
+	text-align: center;
+}
+
+fieldset {
+	width: 15em;
+	border-radius: 5px;
+	background-color: Orange;

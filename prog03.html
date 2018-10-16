@@ -1,0 +1,72 @@
+	<html lang='en'>
+	<head>
+		<title>prog03 - Terry Chen</title>
+		<meta charset='UTF-8'>
+		<link rel="stylesheet" type="text/css" href="prog03.css">
+	</head>
+	<body>
+	<form oninput="ChinaScoreTotal.value=parseInt(t1q1.value)+parseInt(t1q2.value)+parseInt(t1q3.value)
+			USAScoreTotal.value=parseInt(t2q1.value)+parseInt(t2q2.value)+parseInt(t2q3.value)">
+		<fieldset>
+			<h1> <center> Ping Pong </center> </h1>
+			<table id = "table">
+				<tr>
+					<td>
+					</td>
+					<td>
+						<h1 class = "china"> China   </h1>
+					</td>
+					<td>
+						<h1 class = "usa"> USA   </h1>
+					</td>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/FlagUSA_FlagPRC_crash.svg/1599px-FlagUSA_FlagPRC_crash.svg.png" alt="HTML5 Icon" style="text-align:center; width:400 px;height:128px;">
+				</tr>
+				<tr>
+					<td>
+						<p>Round One</p>
+					</td>
+					<td>
+						<input type="number" name="ChinaScore" id="t1q1" value="0">
+					</td>
+					<td>
+						<input type="number" name="USAScore" id="t2q1" value="0">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Round Two</p>
+					</td>
+					<td>
+						<input type="number" name="ChinaScore" id="t1q2" value="0">
+					</td>
+					<td>
+						<input type="number" name="USAScore" id="t2q2" value="0">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Round Three</p>
+					</td>
+					<td>
+						<input type="number" name="ChinaScore" id="t1q3" value="0">
+					</td>
+					<td>
+						<input type="number" name="USAScore" id="t2q3" value="0">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Total Points:</p>
+					</td>
+					<td class= "ChinaTotal">
+						<output name="ChinaScoreTotal" for="t1q1 t1q2 t1q3"></output>
+					</td>
+					<td class= "USATotal">
+						<output name="USAScoreTotal" for="t2q1 t2q2 t2q3"></output>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+	</body>
+	</html>
